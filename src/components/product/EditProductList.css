@@ -1,0 +1,71 @@
+.editPlace {
+  background-color: gray;
+  padding: 40px;
+  margin-top: 15px;
+  border-radius: 15px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vw;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 4vw;
+  background-color: lightgray;
+  width: 100%;
+  max-height: fit-content;
+  padding: 5px;
+  width: 90%;
+}
+
+.color_c {
+  background-color: lightgreen;
+}
+
+.color_u {
+  background-color: lightcoral;
+}
+
+.textArea {
+  width: 70%;
+}
+
+.buttonArea {
+  width: 30%;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+}
+
+.okButton {
+  width: 50%;
+  background-color: lightgreen;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  font-size: 2vw;
+}
+
+.noButton {
+  width: 50%;
+  background-color: lightcoral;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  font-size: 2vw;
+}
+
+.endButton {
+  margin-top: 5px;
+  width: 30%;
+  height: 6vw;
+  font-size: 2vw;
+  border-radius: 5px;
+  border: 0;
+}

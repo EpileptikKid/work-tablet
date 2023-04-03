@@ -1,0 +1,29 @@
+.client_box {
+  margin: 10px;
+  background-color: lightgrey;
+  border-radius: 15px;
+  padding: 15px;
+  color: black;
+  font-weight: bolder;
+  font-size: 3vw;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.color_client_c {
+  background-color: lightgreen;
+}
+
+.color_client_u {
+  background-color: lightcoral;
+}
+
+.containerClient {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

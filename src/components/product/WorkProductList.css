@@ -1,0 +1,54 @@
+.workProductList {
+  background-color: rgb(7, 75, 76);
+  width: 90%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.curProd {
+  background-color: lightgray;
+  width: 90%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.workText {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.workButton {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.okWorkButton {
+  width: 19vw;
+  background-color: lightgreen;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  font-size: 3vw;
+  padding: 10px;
+}
+
+.noWorkButton {
+  width: 19vw;
+  background-color: lightcoral;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  font-size: 3vw;
+  padding: 10px;
+}
+
+.nextButton {
+  font-size: 3vw;
+  padding: 10px;
+  margin: 15px;
+}
