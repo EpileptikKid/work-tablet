@@ -13,7 +13,7 @@ const Work = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `http://green-rest.us-east-1.elasticbeanstalk.com/clients/next?date=${state.date}`,
+        `http://localhost:8081/clients/next?date=${state.date}`,
         {
           method: 'GET',
           redirect: 'follow',
@@ -45,4 +45,4 @@ const Work = () => {
   )
 }
 
-export default withAuthenticationRequired(Work)
+export default Work

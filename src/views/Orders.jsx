@@ -11,7 +11,7 @@ const Orders = () => {
   const getClientList = async (calendar) => {
     try {
       const response = await fetch(
-        `http://green-rest.us-east-1.elasticbeanstalk.com/clients/name?date=${calendar}`
+        `http://localhost:8081/clients/name?date=${calendar}`
       )
       const data = await response.json()
       await setState({ clientList: data, date: calendar })
@@ -46,4 +46,4 @@ const Orders = () => {
   )
 }
 
-export default withAuthenticationRequired(Orders)
+export default Orders

@@ -9,7 +9,7 @@ const Client = () => {
   const [client, setClient] = useState(null)
 
   useEffect(() => {
-    fetch(`http://green-rest.us-east-1.elasticbeanstalk.com/clients/${id}`, {
+    fetch(`http://localhost:8081/clients/${id}`, {
       method: 'GET',
       redirect: 'follow',
     })

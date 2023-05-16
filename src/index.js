@@ -12,8 +12,8 @@ const onRedirectCallback = (appState) => {
 }
 
 const providerConfig = {
-  domain: process.env.REACT_APP_GREEN_DOMAIN,
-  clientId: process.env.REACT_APP_GREEN_CLIENT_ID,
+  domain: 'dev-u2a7gdf5uww4v3oj.us.auth0.com',
+  clientId: 'q2ejTbw2N7ZkUigWP62JgSboCcFFj6tz',
   onRedirectCallback,
   authorizationParams: {
     redirect_uri: window.location.origin,

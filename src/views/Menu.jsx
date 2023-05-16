@@ -16,17 +16,10 @@ const Menu = () => {
       <header>
         <div className="headerMenu">
           <Link to="/">Головна</Link>
-          {isAuthenticated && <Link to="/orders">Замовлення</Link>}
-          {isAuthenticated && <Link to="/contacts">PizzaDay</Link>}
+          <Link to="/orders">Замовлення</Link>
+          <Link to="/contacts">PizzaDay</Link>
         </div>
-        <div className="loggedButton">
-          {isAuthenticated && (
-            <button onClick={() => logoutWithRedirect()}>Вийти</button>
-          )}
-          {!isAuthenticated && (
-            <button onClick={() => loginWithRedirect()}>Авторизуватися</button>
-          )}
-        </div>
+        <div className="loggedButton"></div>
       </header>
       <Outlet />
     </>

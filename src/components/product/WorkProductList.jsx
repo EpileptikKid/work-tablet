@@ -59,13 +59,13 @@ const WorkProductList = ({ data, client }) => {
   const submit = async () => {
     try {
       const newStatus = await fetch(
-        `http://green-rest.us-east-1.elasticbeanstalk.com/products/${client}`,
+        `http://localhost:8081/products/${client}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             products: products,
-            worker: { email: user.sub },
+            worker: { email: 'johndoe@example.com' },
           }),
           redirect: 'follow',
         }
